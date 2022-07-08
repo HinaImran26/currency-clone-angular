@@ -1,0 +1,33 @@
+<div class="wrapper">
+
+    <div class="login">
+
+
+        <h1>Log in to account</h1>
+        <hr>
+        <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+
+            <label id="uname" for="usernname">User</label>
+            <input type="text" name="username" ngModel>
+
+            <label id="pass" for="password">Password</label>
+            <input type="password" name="password" ngModel>
+
+
+            <button id="loginbtn" type="submit">Log in</button>
+            
+
+        </form>
+        <p style="margin:7px;color:#03428f;font-weight: 400;">Do not you have an account yet? <a routerLink="/signup"
+            style="text-decoration: none;font-weight: 600;">Sign up</a></p>
+    </div>
+
+
+    <div class="image">
+
+        <img
+            src="https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg?w=2000">
+    </div>
+
+
+</div>

@@ -1,0 +1,62 @@
+header {
+
+
+
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img {
+    cursor: pointer;
+}
+
+.links {
+
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #03428f;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 16px;
+}
+
+a:hover{color:#3acc6c;}
+
+#loginbtn {
+    color: #03428f;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #03428f;
+    cursor: pointer;
+    font-size: 16px;
+    padding:6px 24px;
+    margin:10px;
+}
+
+#loginbtn:hover{
+    background-color: #03428f;
+    color: white;
+}
+
+#signupbtn {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: #3acc6c;
+    border: 1px solid #3acc6c;
+    border:none;
+ padding:6px 24px; margin:10px;
+}
+
+#signupbtn:hover{
+    color:#03428f;
+}

@@ -1,0 +1,98 @@
+.wrapper{
+
+    height: fit-content;  background-color: rgb(255, 255, 255);
+}
+
+
+.header {
+
+    height: 350px;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerimg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+
+}
+
+#headerhr {
+    position: relative;
+    width: 30%;
+    margin-top: -2px;
+    border-top: 8px solid #3acc6c;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 13px;
+}
+
+
+#headerpara {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 37px;
+    margin-top: 35px;
+
+
+}
+
+.headercontent {
+    width: 28%;
+}
+
+
+
+.news-timeline{
+height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+
+.card{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    border-radius: 13px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 10px;
+}
+
+
+#cardimg{
+    width:100%;
+    height:40%;
+}
+
+.card-content{
+
+    padding:10px; color: #001634;
+}
+
+
+#readmorebtn{
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+
+#date{font-size: 14px;}
+
+
+.row{
+    display:flex; flex-direction: row; margin: 7px;
+}

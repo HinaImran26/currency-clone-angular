@@ -1,0 +1,45 @@
+<div class="wrapper">
+    <img src="https://maptracker-54ca5.web.app/assets/register.png">
+    
+    
+
+
+    <div class="signup">
+
+
+        <h1>Create an account</h1>
+        <hr>
+        <form #signupForm="ngForm" (ngSubmit)="onSubmit(signupForm)">
+
+            <label id="uname" for="usernname">Username</label>
+            <input type="text" placeholder="e.g John.Doe" name="username" ngModel>
+
+            <label id="email" for="email">Email address</label>
+            <input type="email" placeholder="e.g John.Doe@gmail.com" name="email" ngModel>
+
+            <label id="pass" for="password">Password</label>
+            <input type="password" name="password" ngModel>
+
+
+            <button id="signupbtn" type="submit">Create account</button>
+            
+
+        </form>
+
+
+
+        <hr style="width: 35%;
+        margin-top: 14px;">
+        <p style="text-align: center;
+        font-size: 14px;">Or sign up using social media</p>
+        
+        <div class="social-icons">
+        
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a> 
+        </div>
+
+
+    </div>
+</div>

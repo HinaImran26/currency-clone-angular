@@ -1,0 +1,47 @@
+<div class="wrapper">
+
+<img id="bkgrndimg" src="https://img.freepik.com/free-vector/blue-diagonal-square-grid-background_1409-1251.jpg?w=360" alt="">
+
+<div class="container">
+
+
+<div class="left-container">
+
+<p id="heading">Enjoy <b>exchanging your foreign currency</b> <br>at the best exchange rate in Pakistan</p>
+<button id="tut-btn">See how it works</button>
+
+</div>
+
+<div class="right-container">
+
+
+
+    <form #conversionForm="ngForm" (ngSubmit)="onSubmit(conversionForm)">
+
+        <h1 style="color: #07448d;">Calculate the change</h1>
+        <hr>
+        <input type="number" name="pkr" placeholder="PKR" ngModel>
+
+        <input type="number" name="dollar" placeholder="$" ngModel>
+
+
+        <button id="convertbtn" type="submit">Convert</button>
+        
+
+    </form>
+
+
+
+
+    
+</div>
+
+
+
+
+
+
+</div>
+
+
+</div>

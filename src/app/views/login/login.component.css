@@ -1,0 +1,85 @@
+.wrapper {
+    height: 100%; width:100%;
+    display:flex; flex-direction:row; 
+ 
+}
+
+.login {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 50%;
+    background-color: yellow;
+}
+
+img{width:100%;height:100%;}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;     margin-left: 50px; margin-top: 25px;
+}
+
+h1{
+    color:#03428f;
+}
+
+hr{
+    width: 70%;
+    /* color: black; */
+    margin-top: -8px; border:1px solid #e9e9e9;
+}
+
+label{
+    margin: 7px;
+    color: #738dad;
+    font-weight: 500; 
+}
+
+input{
+    border-radius: 30px;
+    height: 55px;
+    border: 1px solid #ced4da;
+    margin: 7px;
+    width: 65%;
+}
+
+
+
+#loginbtn{
+
+    color: white;
+    background-color: #3acc6c;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 65%;
+    margin: 7px;
+    cursor: pointer; font-weight: 600;
+}
+
+#loginbtn:hover{ color:#03428f;}
+
+#uname{position: relative;
+   right: 182px;}
+
+
+ #pass{
+    position: relative;
+    right: 162px;
+ }   
+
+
+::placeholder{
+    padding:5px;
+}
+
+

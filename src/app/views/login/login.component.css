@@ -6,7 +6,7 @@
 
 .login {
     width: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@
 
 .image {
     width: 50%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 img{width:100%;height:100%;}
@@ -28,7 +28,7 @@ form{
 }
 
 h1{
-    color:#03428f;
+    color:var(--dark-blue-color);
 }
 
 hr{
@@ -39,7 +39,7 @@ hr{
 
 label{
     margin: 7px;
-    color: #738dad;
+    color: var(--dark-blue-color);
     font-weight: 500; 
 }
 
@@ -55,8 +55,8 @@ input{
 
 #loginbtn{
 
-    color: white;
-    background-color: #3acc6c;
+    color: var(--white-color);
+    background-color: var(--green-color);
     padding: 12px 50px;
     border: none;
     border-radius: 30px;
@@ -66,7 +66,7 @@ input{
     cursor: pointer; font-weight: 600;
 }
 
-#loginbtn:hover{ color:#03428f;}
+#loginbtn:hover{ color: var(--dark-blue-color);}
 
 #uname{position: relative;
    right: 182px;}

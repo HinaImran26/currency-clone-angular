@@ -1,13 +1,13 @@
 .wrapper{
 
-    height: fit-content;  background-color: rgb(255, 255, 255);
+    height: fit-content;  background-color: var(--white-color);
 }
 
 
 .header {
 
     height: 350px;
-    background-color: blue;
+    background-color: var(--dark-blue-color);
     position: relative;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
     position: relative;
     width: 30%;
     margin-top: -2px;
-    border-top: 8px solid #3acc6c;
+    border-top: 8px solid var(--green-color);
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -36,7 +36,7 @@
 
 #headerpara {
     position: relative;
-    color: white;
+    color: var(--white-color);
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -65,7 +65,7 @@ height: 100%;
 .card{
     height: 500px;
     width: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white-color);
     overflow-x: hidden;
     border-radius: 13px;
     box-shadow: 5px 5px 10px grey;
@@ -80,13 +80,13 @@ height: 100%;
 
 .card-content{
 
-    padding:10px; color: #001634;
+    padding:10px; color: var(--dark-blue-color);
 }
 
 
 #readmorebtn{
     text-decoration: none;
-    color: green;
+    color: var(--green-color);
     font-weight: 500;
 }
 

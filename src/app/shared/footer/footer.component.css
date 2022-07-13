@@ -1,6 +1,6 @@
 footer {
     height: auto;
-    background-color:#001634;
+    background-color: var(--dark-blue-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ footer {
 }
 
 a {
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
@@ -41,7 +41,7 @@ a {
 
 hr {
     width: 70%;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--white-color);
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -50,7 +50,7 @@ hr {
 
 
 .contact-section{
-    color: white;
+    color: var(--white-color);
     font-weight: 500;
     margin-right: 25px;
     display: flex;

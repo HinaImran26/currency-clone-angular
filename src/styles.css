@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+:root{
+
+--dark-blue-color: #001634;
+--white-color: white;
+--green-color: #3acc6c;
+--powder-blue-color: aliceblue;
+--dull-blue-color:#738dad; 
+
+}
+
 * {
     box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: #063c85;
+    background-color: var(--dark-blue-color);
     height: 100%;
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@ img {
 .signup {
     position: absolute;
     z-index: 1;
-    background-color: white;
+    background-color: var(--white-color);
     width: 50%;
     margin-left: 25px;
     padding: 15px;
@@ -39,12 +39,12 @@ form {
 
 h1 {
     text-align: center;
-    color: #03428f;
+    color: var(--dark-blue-color);
 }
 
 label {
     margin: 5px;
-    color: #738dad;
+    color:var(--dark-blue-color);
     font-weight: 500; font-size: 16px;
 }
 
@@ -59,9 +59,9 @@ input {
 #signupbtn {
 
     color: white;
-    background-color: #1b428f;
+    background-color: var(--dark-blue-color);
     padding: 12px 50px;
-    border: 1px solid #1b428f;
+    border: 1px solid var(--dark-blue-color);
     border-radius: 30px;
     font-size: 14px;
     width: 40%;
@@ -71,9 +71,9 @@ input {
 }
 
 #signupbtn:hover {
-    background-color: white;
-    color: #1b428f;
-    border: 1px solid #1b428f;
+    background-color:  var(--white-color);
+    color: var(--dark-blue-color);
+    border: 1px solid  var(--dark-blue-color);
 }
 
 hr {

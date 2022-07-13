@@ -4,7 +4,7 @@ header {
 
     height: 80px;
     width: 100%;
-    background-color: white;
+    background-color: var(--white-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,45 +18,58 @@ img {
 .links {
 
     margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
-    color: #03428f;
+    color: var(--dark-blue-color);
     font-weight: 600;
     margin: 10px;
     font-size: 16px;
 }
 
-a:hover{color:#3acc6c;}
+a:hover{color:var(--green-color);}
 
 #loginbtn {
-    color: #03428f;
-    background-color: white;
+    color:var(--dark-blue-color);
+    background-color:var(--white-color);
     border-radius: 30px;
-    border: 1px solid #03428f;
+    border: 1px solid var(--dark-blue-color);
     cursor: pointer;
     font-size: 16px;
     padding:6px 24px;
-    margin:10px;
+    /* margin:10px; */
 }
 
 #loginbtn:hover{
-    background-color: #03428f;
-    color: white;
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+
 }
 
 #signupbtn {
-    color: white;
+    color: var(--white-color);
     cursor: pointer;
     font-size: 16px;
     border-radius: 30px;
-    background-color: #3acc6c;
-    border: 1px solid #3acc6c;
+    background-color: var(--green-color);
+    border: 1px solid var(--green-color);
     border:none;
  padding:6px 24px; margin:10px;
 }
 
 #signupbtn:hover{
-    color:#03428f;
+    color:var(--dark-blue-color);
+}
+
+#dark-mode-icon{
+
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 13px;
 }
